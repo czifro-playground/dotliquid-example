@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Sample 1</title>
+  </head>
+  <body>
+    <div>
+      {% if model.user_name %}
+        Hello {{model.user_name.Value}}
+      {% else %}
+        Dave is not here
+      {% endif %}
+    </div>
+  </body>
+</html>
